@@ -1,0 +1,54 @@
+
+    *{
+        background-color: #bb3535
+    }
+    h1{
+      color: #000000;  
+    }
+
+    .Start{
+        margin-left:200px;
+        border:solid;
+        padding:50px;
+
+    }
+   
+    .images{
+        display:flex;
+        justify-content: space-evenly
+    }
+
+    a:link{
+        color:#bb3535
+    }
+
+    a:visited{
+        color:rgb(136, 255, 0)
+    }
+
+    .images a{
+        margin-left:20px;
+
+    }
+
+    .images{
+        position:relative;
+    }
+
+    .end p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+
+    }
+
+    .images:hover p{
+        opacity:1;
+
+    }
+
+    .images:hover img{
+        opacity:0.33;
+    }
